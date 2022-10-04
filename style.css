@@ -1,0 +1,305 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.nav{
+   position: absolute;   
+   width: 100%;
+   height: 50px;
+   background-color: rgb(145, 115, 115);
+   /* display: flex; */
+   /* opacity: 0.2; */
+   /* justify-content: space-between; */
+   
+}
+.nav .logo{
+    position: relative;
+    left: 20vw;
+    top: 10px;
+    color: white;
+    
+
+}
+.logo h1{
+    font-family:  cursive;
+    font-size: 27px;
+}
+.nav .home ul{
+    display: flex;
+    position: relative;
+    left: 60vw;
+    bottom: 19px;
+    /* padding: 20px; */
+    list-style: none;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    
+}
+.home ul li a{
+    padding: 20px;
+    font-family: 'Inter', sans-serif;
+ 
+}
+.home ul li:hover{
+    color:rgb(61, 5, 5);
+}
+.body{
+    /* display: flex; */
+    /* position: relative; */
+    background-image: url(images/head2.jpeg);
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+    width: 100%;
+    
+
+}
+.body .head{
+    position: relative;
+    justify-content: center;
+    text-align: center;
+    top: 30vh;
+    
+}
+.head h1{
+    color: white;
+    font-size: 7vmin;
+    font-family:  cursive;
+}
+.line{
+    width: 270px;
+    height: 4px;
+    background: rgb(156, 72, 72);
+    border-radius: 5px;
+   position: relative;;
+   top: 31vh;
+   left: 40vw;
+
+}
+.body .para{
+    position: relative;
+    top: 37vh;
+    text-align: center;
+    /* left: 5vw; */
+}
+.para p{
+    color: white;
+    font-size: 20px;
+    font-family: cursive;
+
+}
+.body .para2{
+    position: relative;
+    top: 40vh;
+    text-align: center;
+    /* left: 21vw; */
+}
+.para2 p{
+    color: white;
+    font-size: 20px;
+    font-family:  cursive;
+}
+.boxes{
+    height: 90vh;
+    width: 100%;
+    display: flex;
+    background-color: rgb(224, 186, 186)
+
+}
+.service{
+    position: relative;
+/* display: flex; */
+left: 43vw;
+top: 21px;
+width: 300px;
+}
+.service h1{
+font-size: 29px;
+
+}
+.boxes .bigbox{
+    height: 50vh;
+    width: 80vw;
+    /* background-color: rgb(153, 88, 88); */
+    /* display: flex; */
+    position: relative;
+    top: 8vh; 
+    left: -6vw;
+    margin: 50px;
+}
+.bigbox .box1{
+    position: absolute;
+    background-color: rgb(221, 201, 201);
+    width:20vw ;
+    height:55vh ;
+    margin:20px;
+    border-radius: 43px;
+    border: 2px rgb(156, 72, 72) solid;
+
+}
+.box1 img{
+    width: 200px;
+height: 150px;
+margin: 43px ;
+}
+.box1 .h2{
+    color: #0f0e0e;
+position: relative;
+top: -22px;
+left: 105px;
+font-size: 26px;
+font-family:  cursive;
+}
+.box1 .para p{
+    color: black;
+    font-family:  cursive;
+    padding: 20px;
+}
+.bigbox .box2{
+    position: relative;
+    display:flex;
+    background-color: rgb(221, 201, 201);
+    width:20vw ;
+    height:55vh ;
+    margin:20px;
+    /* top: 15vh; */
+    left: 23vw;
+    border-radius: 43px;
+    border: 2px rgb(156, 72, 72) solid;
+
+}
+.box2 img{
+    width: 200px;
+height: 150px;
+margin: 43px ;
+}
+.box2 .h2{
+    color: #0f0e0e;
+position: relative;
+top: -22px;
+left: 105px;
+font-size: 26px;
+font-family:  cursive;
+}
+.box2 .para p{
+    color: black;
+    font-family:  cursive;
+    padding: 20px;
+}
+.bigbox .box3{
+    position: relative;
+    display:flex;
+    background-color: rgb(221, 201, 201);
+    width:20vw ;
+    height:55vh ;
+    margin:20px;
+    left: 46vw;
+    top: -58vh;
+    border-radius: 43px;
+    border: 2px rgb(156, 72, 72) solid;
+}
+.box3 img{
+    width: 200px;
+height: 150px;
+margin: 43px ;
+}
+.box3 .h2{
+    color: #0f0e0e;
+position: relative;
+top: -22px;
+left: 105px;
+font-size: 26px;
+font-family:  cursive;
+}
+.box3 .para p{
+    color: black;
+    font-family:  cursive;
+    padding: 20px;
+}
+.work{
+    background-color: #cda3a3;
+    height: 40vh;
+    width: 100%;
+}
+.clients{
+    position: relative;
+/* display: flex; */
+left: 43vw;
+top: 21px;
+width: 300px;
+}
+.clients h1{
+font-size: 29px;
+
+}
+.images{
+    position: relative;
+    top: 65px;
+    left: 26vw;
+}
+.images img {
+    width: 170px;
+    /* height: 20px; */
+}
+.contact{
+    width: 100%;
+    background-color: rgb(208, 183, 183);
+    height: 62vh;
+    overflow: hidden;
+}
+.contus{
+    position: relative;
+/* display: flex; */
+left: 43vw;
+top: 21px;
+width: 300px;
+}
+.contus h1{
+font-size: 29px;
+
+}
+.all{
+    position: relative;
+    left: 26vw;
+top: 10vh;
+}
+.name p{
+    margin: 5px 0 5px 0;
+}
+.name input{
+    width: 50vw;
+    height: 20px;
+}
+.email p{
+    margin: 5px 0 5px 0;
+}
+.email input{
+    width: 50vw;
+    height: 20px;
+}
+.contact p{
+    margin: 5px 0 5px 0;
+}
+.contact input{
+    width: 50vw;
+    height: 20px;
+}
+.message p{
+    margin: 5px 0 5px 0;
+}
+.message{
+    position: relative;
+    bottom: 53vh;
+}
+/* @media screen and (max-width:1000px) {
+    .nav{
+        flex-direction: column;
+    }
+    .logo h1{
+        position: relative;
+        top: 10vh;
+    }
+} */

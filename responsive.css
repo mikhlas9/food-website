@@ -1,0 +1,79 @@
+@media screen and (max-width:1000px) {
+    .nav{
+        flex-direction: column;
+        height: 14vh;
+    }
+    .logo h1 {
+        position: relative;
+        left: 10vw;
+    }
+    .nav .home ul{
+        position: relative;
+        top: 5vh;
+left: -2vw;
+text-align: center;
+justify-content: center;
+    }
+    .body{
+        height: 70vh;
+    }
+    .line{
+       position: relative;
+       left: 20vw;
+    }
+    .boxes{
+        flex-direction: column;
+        height: 158vh;
+    }
+    .service{
+        position: relative;
+        left: 15vw;
+        text-align: center;
+    }
+    .boxes .bigbox{
+        flex-direction: column;
+    }
+     .bigbox .box1{
+        position: absolute;
+top: -9vh;
+width: 77vw;
+height: 44vh;
+    }
+    .bigbox .box2{
+        position: absolute;
+        top: 39vh;
+        width: 77vw;
+        height: 44vh;
+        left: 0vw;
+    }
+    .bigbox .box3{
+        position: absolute;
+        top: 87vh;
+        width: 77vw;
+        height: 44vh;
+        left: 0vw;
+    }
+    .clients{
+        position: relative;
+        text-align: center;
+        left: 14vw;
+    }
+    .images {
+        position: relative;
+left: 14vw;
+    }
+    .images img{
+        width: 140px;
+    }
+    .contus{
+        position: relative;
+left: 14vw;
+text-align: center;
+    }
+    
+    .message textarea{
+         width: 51vw;
+
+    }
+   
+} 
